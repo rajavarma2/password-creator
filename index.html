@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Password Generator 🔐</h2>
+
+    <div class="options">
+      <label>Password Length: <span id="lengthValue">12</span></label>
+      <input type="range" id="length" min="6" max="32" value="12" />
+
+      <label><input type="checkbox" id="uppercase" checked /> Include Uppercase</label>
+      <label><input type="checkbox" id="lowercase" checked /> Include Lowercase</label>
+      <label><input type="checkbox" id="numbers" checked /> Include Numbers</label>
+      <label><input type="checkbox" id="symbols" /> Include Symbols</label>
+    </div>
+
+    <button id="generate">Generate Password</button>
+    <input type="text" id="password" readonly />
+
+    <div class="strength" id="strength">
+      <div></div>
+    </div>
+    <p id="strength-text"></p>
+  </div>
+
+  <footer>
+    <p>© 2025 Made by <strong>Raja Varma</strong> Using AI prompting</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

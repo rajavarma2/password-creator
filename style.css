@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+#password {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.strength {
+  height: 10px;
+  margin-top: 15px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.strength div {
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
